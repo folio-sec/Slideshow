@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DebugViewController" customModule="Slideshow" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="c22-O7-iKe" id="UzQ-mf-l5R"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Y5f-Gp-e3d">
+                    <rect key="frame" x="0.0" y="136" width="240" height="136"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="fui-5y-pt5">
+                    <rect key="frame" x="240" y="136" width="240" height="136"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="44g-FG-QBM">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="136"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="3lC-F3-fjW">
+                    <rect key="frame" x="240" y="0.0" width="240" height="136"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fui-5y-pt5" firstAttribute="leading" secondItem="Y5f-Gp-e3d" secondAttribute="trailing" id="4Cc-mx-K5o"/>
+                <constraint firstItem="44g-FG-QBM" firstAttribute="top" secondItem="Y5f-Gp-e3d" secondAttribute="bottom" id="7QC-Qh-dw0"/>
+                <constraint firstAttribute="trailing" secondItem="fui-5y-pt5" secondAttribute="trailing" id="8ng-cX-mZM"/>
+                <constraint firstItem="44g-FG-QBM" firstAttribute="width" secondItem="3lC-F3-fjW" secondAttribute="width" id="Run-O2-Uyx"/>
+                <constraint firstItem="fui-5y-pt5" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="S3f-xE-uf1"/>
+                <constraint firstItem="fui-5y-pt5" firstAttribute="height" secondItem="3lC-F3-fjW" secondAttribute="height" id="VYP-KU-xXb"/>
+                <constraint firstItem="Y5f-Gp-e3d" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="YNO-gb-2jK"/>
+                <constraint firstItem="Y5f-Gp-e3d" firstAttribute="height" secondItem="44g-FG-QBM" secondAttribute="height" id="aIB-0c-sAs"/>
+                <constraint firstItem="Y5f-Gp-e3d" firstAttribute="width" secondItem="fui-5y-pt5" secondAttribute="width" id="chN-c7-sSk"/>
+                <constraint firstItem="Y5f-Gp-e3d" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="d6t-WR-K3p"/>
+                <constraint firstItem="3lC-F3-fjW" firstAttribute="top" secondItem="fui-5y-pt5" secondAttribute="bottom" id="dHk-Ax-KU1"/>
+                <constraint firstItem="3lC-F3-fjW" firstAttribute="leading" secondItem="44g-FG-QBM" secondAttribute="trailing" id="dM6-j1-5AO"/>
+                <constraint firstAttribute="bottom" secondItem="44g-FG-QBM" secondAttribute="bottom" id="eq7-wC-mdS"/>
+                <constraint firstItem="44g-FG-QBM" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="gYJ-Ry-VwF"/>
+                <constraint firstAttribute="trailing" secondItem="3lC-F3-fjW" secondAttribute="trailing" id="jBX-7y-Ovh"/>
+                <constraint firstAttribute="bottom" secondItem="3lC-F3-fjW" secondAttribute="bottom" id="uZr-Xc-KqO"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>
